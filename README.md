@@ -14,22 +14,22 @@ This project demonstrates the development of a RESTful API using Node.js and Exp
 1. Retrieve All Users
    - Path: /users
    - Screenshot:  
-     ![All Users](./Screenshot_postman/users_list.png)
+     ![All Users](./Images/users_list.png)
 
 2. Get User by ID
    - Path: /users/:id
    - Screenshot:  
-     ![User by ID](./Screenshot_postman/specific_user.png)
+     ![User by ID](./Images/specific_user.png)
 
 3. Search Users by Profession
    - Path: /users/profession/:profession
    - Screenshot:  
-     ![Users by Profession](./Screenshot_postman/profession.png)
+     ![Users by Profession](./Images/profession.png)
 
 4. Find User by Name
    - Path: /users/name/:name
    - Screenshot:  
-     ![User by Name](./Screenshot_postman/name.png)
+     ![User by Name](./Images/name.png)
 
 ### Lessons Learned
 Throughout the project, I gained insights into:
@@ -42,16 +42,16 @@ Throughout the project, I gained insights into:
 Below are screenshots showing the API endpoints tested with Postman:
 
 1. All Users: Retrieves a complete list of users via /users.  
-   ![All Users](./Screenshot_postman/users_list.png)
+   ![All Users](./Images/users_list.png)
 
 2. Specific User by ID: Returns the details of a user for the specified ID through /users/:id.  
-   ![User by ID](./Screenshot_postman/specific_user.png)
+   ![User by ID](./Images/specific_user.png)
 
 3. Users by Profession: Filters users by their profession using /users/profession/:profession.  
-   ![Users by Profession](./Screenshot_postman/profession.png)
+   ![Users by Profession](./Images/profession.png)
 
 4. User by Name: Finds a specific user by their name using /users/name/:name.  
-   ![User by Name](./Screenshot_postman/name.png)
+   ![User by Name](./Images/name.png)
 
 ### Insights and Challenges
 - Testing APIs with tools like Postman provided clarity in debugging and verifying functionality.
